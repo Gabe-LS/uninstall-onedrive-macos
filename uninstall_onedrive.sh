@@ -918,6 +918,7 @@ fi
 
 echo "The items listed above will be permanently deleted."
 echo "Make sure you have backed up any files you want to keep."
+echo "Consider running a Time Machine backup first if you haven't recently."
 echo ""
 read -rp "Type YES to proceed with removal: " confirm
 if [ "$confirm" != "YES" ]; then
